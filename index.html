@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid vh-100 d-flex justify-content-center align-items-center bg-image">
+        <!-- Card de login -->
+        <div class="card p-4 shadow-lg" style="width: 350px; background-color: rgba(255, 255, 255, 0.9);">
+          <h3 class="text-center mb-4">Login</h3>
+          <form id="loginForm">
+            <!-- Campo de email -->
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Digite seu email" required>
+            </div>
+            <!-- Campo de senha -->
+            <div class="mb-3">
+              <label for="password" class="form-label">Senha</label>
+              <input type="password" id="password" class="form-control" placeholder="Digite sua senha" required>
+            </div>
+            <!-- Botão de login -->
+            <button type="submit" class="btn btn-primary w-100">Entrar</button>
+          </form>
+          <!-- Link de recuperação de senha -->
+          <div class="text-center mt-3">
+            <a href="#" class="text-decoration-none">Esqueceu a senha?</a>
+          </div>
+        </div>
+      </div>
+      <!-- Script JavaScript -->
+      <script src="script.js"></script>
+</body>
+</html>
