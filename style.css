@@ -7,7 +7,7 @@ body, html {
     font-family: Arial, sans-serif;
   }
   .bg-image {
-    background-image: url(image/pexels-kevin-dorg-136105-2881262.jpg);
+    background: linear-gradient(to right, #1e3c72, #2a5298, rgb(102, 74, 146));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
